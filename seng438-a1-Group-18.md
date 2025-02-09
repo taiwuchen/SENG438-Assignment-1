@@ -67,11 +67,13 @@ Both testing methods played an important role in the lab. Exploratory testing wa
 
 # Notes and discussion of the peer reviews of defect reports
 
-We found, on reviewing the defect report of the other pair, several similarities of their test cases to ours, such as both teams tested the same core ATM functions: withdrawals, deposits, transfers, and balance checking, and therefore it would be expected that both pairs would replicate some tests on it. Another similarity: both sets of defect reports were clear and easy to follow. It made it so easy to redo the tests and pinpoint the mistakes in retesting.
+Upon reviewing the defect report from the other pair, several similarities stood out. Both teams focused on testing the core ATM functions such as withdrawals, deposits, transfers, and balance inquiries. Given that these are essential operations, it was expected that both pairs would conduct similar tests. Another key similarity was that both sets of defect reports were well documented and structured in a way that made it easy to follow the steps, redo the tests, and pinpoint issues during retesting.
 
-However, there were some dissimilarities, one of which was a range of amounts tested in the examples of withdrawals and deposits; the variance revealed some mathematical problems had been programmed. Additionally, certain errors in the program’s outputs weren’t always documented by each team.
+There were also some noticeable differences between the reports. One of the most interesting findings was the variation in the amounts used for withdrawals and deposits. While both teams tested these functions, the differences in test values revealed mathematical inconsistencies in how the system handled transactions. Another distinction was that some errors in the program’s outputs were not always documented by both teams. Certain defects were recorded in one report but not the other, suggesting that each team approached the testing process slightly differently and identified unique issues.
 
-Ultimately, the possession of two sets of defect reports would serve to detect some of the other team's missed points for creating a better test set that would be much more thorough and precise.
+Pair 2 found it particularly interesting how small differences in language appeared between reports. Even when describing the same defect, the phrasing and level of detail varied from pair to pair. Despite these differences, both reports were well documented and detailed, making them easy to understand. Another key takeaway was the overlap in some of the bugs found, but also how certain defects were unique to one pair’s testing. Some system failures were reported in one set of results but did not appear in the other, showing how testing approaches and inputs influenced the outcomes.
+
+Having two sets of defect reports ultimately improved the overall quality of testing. By comparing findings, the team was able to detect issues that may have been missed by one pair, leading to a more thorough and precise test set. The peer review process reinforced the importance of clear documentation and collaboration in software testing.
 
 # How the pair testing was managed and team work/effort was divided 
 
@@ -79,7 +81,11 @@ Pair testing was managed and divided in a way to ensure complete understanding a
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
-Some difficulties encountered included creation of tests and choosing highly effective tests that would ensure each functionality of the system is thoroughly operational. We used a implementation of generative AI to help, analyze and extract. Key tests required to analyze the functionality. This was integrated into exploratory testing from both pairs allowing a more in depth review overall. Some lessons we learned as a team was how to write bug reports as well as clearly demonstrate testing of each functionality and identifying bugs efficiently. We also learned how to communicate and distribute work efficiently to create optimal results.
+Some difficulties encountered included creating test cases and choosing the most effective ones to ensure that every functionality of the ATM system was thoroughly tested. Deciding which tests would provide the best coverage while also being efficient was a challenge, so we used an implementation of generative AI to help analyze and extract key tests required to evaluate functionality. This was integrated into exploratory testing from both pairs, allowing for a more in depth review and helping to identify critical defects more effectively.
+
+Another major difficulty was running the program itself. Certain bugs caused the system to break entirely, requiring a full restart before testing could continue. This slowed down the testing process and made it difficult to maintain consistency in some cases, especially when trying to reproduce defects. There was also a challenge in determining how precise to be in bug reports. Finding the right balance between being detailed enough for clarity while not overcomplicating reports was something we had to adjust as we worked through the lab.
+
+Some key lessons learned as a team included how to write proper bug reports and clearly demonstrate the testing of each functionality while identifying defects efficiently. We also learned how to communicate and distribute work in a way that kept the process moving smoothly and ensured optimal results. Overall, this lab provided valuable experience in structuring and executing software tests while reinforcing the importance of organization and adaptability in debugging.
 
 # Comments/feedback on the lab and lab document itself
 
