@@ -35,7 +35,7 @@ learned	1](#_Toc439194682)
 
 The first lab focuses on understanding and practicing different software testing methods through an ATM simulation system. It introduces testing under three categories: exploratory, manual scripted, and regression testing. Using these methods, the lab highlights different ways to identify software defects. Additionally, it provides instructions on how to use a bug tracking system and properly track and document findings.
 
-Prior to the lab, there was rudimentary knowledge of software testing. Testers typically interact freely with the software and note down any defects. However, the concept of a structured and detailed documentation process was new. This lab introduced real-world examples of software testing, showcasing multiple methods used in the industry.
+Prior to the lab, there was rudimentary knowledge of software testing. Testers typically interact freely with the software and note down any defects. However, the concept of a structured and detailed documentation process was new. This lab introduced real world examples of software testing, showcasing multiple methods used in the industry.
 
 # High-level description of the exploratory testing plan
 
@@ -79,7 +79,7 @@ Pair testing was managed and divided in a way to ensure complete understanding a
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
-Some difficulties encountered included creation of tests and choosing highly effective tests that would ensure each functionality of the system is thoroughly operational. We used a implementation of generative AI to help, analyze and extract. Key tests required to analyze the functionality. This was integrated into exploratory testing from both pairs allowing a more in-depth review overall. Some lessons we learned as a team was how to write bug reports as well as clearly demonstrate testing of each functionality and identifying bugs efficiently. We also learned how to communicate and distribute work efficiently to create optimal results.
+Some difficulties encountered included creation of tests and choosing highly effective tests that would ensure each functionality of the system is thoroughly operational. We used a implementation of generative AI to help, analyze and extract. Key tests required to analyze the functionality. This was integrated into exploratory testing from both pairs allowing a more in depth review overall. Some lessons we learned as a team was how to write bug reports as well as clearly demonstrate testing of each functionality and identifying bugs efficiently. We also learned how to communicate and distribute work efficiently to create optimal results.
 
 # Comments/feedback on the lab and lab document itself
 
